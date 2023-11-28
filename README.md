@@ -23,20 +23,21 @@ Replace `ku2latin.py` with the name of the file where your `Codespaces` function
 ## Enter Kurdish Text:
 Input the Kurdish text you want to convert when prompted.
 
-##View the Latin Script Output:
+## View the Latin Script Output:
 The script will output the corresponding Latin script for the entered Kurdish text.
 
 ### Example
 ```
-from Codespaces import Codespaces
+# new.py
+from Codespaces.ku2latin import kurdish_to_latin_converter
 
-## Kurdish text to be converted
-kurdish_text = "ئێلۆن موسک ل باژارێ پرەتۆرا ژ دایک بوویە، و دەمەکێ کورت ل زانینگەها وێ خواندیە."
+# Kurdish text to be converted
+kurdish_text = "ئێلۆن موسک ل باژارێ پرەتۆرا ژ دایک بوویە، و دەمەکێ کورت ل زانینگەها وێ خواندیە"
 
-## Convert to Latin script
-latin_text = Codespaces(kurdish_text)
+# Convert to Latin script
+latin_text = kurdish_to_latin_converter(kurdish_text)
 
-## Print the result
+# Print the result
 print(latin_text)
 
 ```
