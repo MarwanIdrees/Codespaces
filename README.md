@@ -42,6 +42,8 @@ print(latin_text)
 
 ```
 
+Response: Elon mwsk l bazhare pretora zh daik bwwie، w demeke kwrt l zaningeهa we khwandie
+
 ## Methodology
 The converter utilizes a mapping of Kurdish characters to their Latin equivalents. The algorithm also handles the placement of the letter 'w' between consecutive vowels to ensure accurate transliteration.
 
